@@ -67,6 +67,9 @@
     flex-direction: row-reverse;
     padding: 30px;
 }
+.about-text{
+    margin-bottom: 70px;
+}
 .about-title{
     text-align: center;
     padding: 20px;
@@ -81,4 +84,37 @@
 }
 
 /* This is the end of About Section style  */
+.service-section{
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(26, 21, 21),rgb(47, 43, 43));;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: white;
+}
+.section-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-box{
+    border: 2px solid white;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 2px 2px 2px 3px  rgb(120, 119, 119);
+}
+.section-img{
+    width: 120px;
+    
+}
+.section-btn{
+    background-color: rgb(42, 39, 39);
+}
+.section-h3{
+    margin-top: 10px;
+}
+
+/* This is the end of service-section style  */
 
