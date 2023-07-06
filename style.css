@@ -21,3 +21,43 @@
     margin: 0px 20px;
 
 }
+
+/* This is the end of nav style */
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(26, 21, 21),rgb(47, 43, 43));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner-p{
+    margin: 15px 0px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.btn:hover{
+    color: red;
+    background-color: white;
+}
+.banner-img{
+    height: 300px;
+}
+
+/* This is the end of banner section  */
+
+
