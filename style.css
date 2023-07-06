@@ -60,4 +60,25 @@
 
 /* This is the end of banner section  */
 
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 30px;
+}
+.about-title{
+    text-align: center;
+    padding: 20px;
+}
+.about-h2{
+    margin-bottom: 15px;
+    font-size: 25px;
+
+}
+.about-btn{
+    margin-top: 15px;
+}
+
+/* This is the end of About Section style  */
 
